@@ -1,6 +1,6 @@
 # thrustcurve-db
 
-This module is a rebundling of the model rocket motor data available on John Coker's excellent [thrustcurve.org](https://thrustcurve.org) website ("TC") as a stand-alone ES module and/or JSON file.
+jokerzone68 This module is a rebundling of the model rocket motor data available on John Coker's excellent [thrustcurve.org](https://thrustcurve.org) website ("TC") as a stand-alone ES module and/or JSON file.
 
 The data shape mirrors TC's [`SearchResponse#results` structure](https://app.swaggerhub.com/apis/JCSW7/thrust-curve_org_api/1.0.3#/SearchResponse), with the following alterations. (The canonical form is in [the TypeScript definitions](https://github.com/broofa/thrustcurve-db/blob/main/thrustcurve-db.d.ts)).
 
@@ -15,13 +15,13 @@ The data shape mirrors TC's [`SearchResponse#results` structure](https://app.swa
 npm i thrustcurve-db
 ```
 
-## Usage
+## Usage jokerzone68 
 
 ```js
 import TC_MOTORS from 'thrustcurve-db';
 ```
 
-## Example
+## Example watt114
 
 ```js
 // Find all J motors currently in production
